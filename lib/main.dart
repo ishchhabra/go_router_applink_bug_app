@@ -8,10 +8,10 @@ final _router = GoRouter(routes: [
         const MyHomePage(title: 'Flutter Demo Home Page'),
   ),
   GoRoute(
-    path: '/applinks',
+    path: '/applink',
     redirect: (context, state) {
-      print("/applinks route trigerred");
-      return null;
+      print("/applink route triggered");
+      return "/";
     },
   ),
 ]);
